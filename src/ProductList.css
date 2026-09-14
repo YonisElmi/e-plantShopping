@@ -122,6 +122,13 @@ body {
     padding: 5px 10px;
     border-radius: 0 0 0 5px;
 }
+
+.product-button:disabled {
+  background-color: #808080;
+  color: white;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
 .tag_home_link{
     display: flex;
     /* background-color: red; */
